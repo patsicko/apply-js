@@ -50,6 +50,9 @@ select{
     position: relative;
     top: -380px;
     margin: auto;
+    visibility: hidden;
+    transition: 3s ease-in-out;
+    transform: translateX(-250%);
 }
 .form{
     width:400px;
@@ -60,14 +63,20 @@ select{
     border-radius: 5PX;
     margin: auto;
     transition: 3s ease-in-out;
+    transform: translateY(-150%);
   
 }
 
 .apply{
-    transform: translateY(-150%);
+    transform: translateY(0%);
     transition: 3s ease-in-out;
 }
 .submitted{
-  transform: translateX(150%);
+  transform: translateX(350%);
   transition: 3s ease-in-out;  
+}
+.visible{
+    visibility: visible;
+    transform: translateX(0%);
+    transition: 3s ease-in-out;
 }

@@ -29,5 +29,15 @@ console.log(submit);
 submit.addEventListener("click",e=>{
     form.classList.toggle("submitted");
     console.log(fname.value+" "+lname.value);
+    congs.classList.toggle("visible");
+
+    if(fname.value && lname.value && email.value && password.value){
+        congs.textContent=` Congratulations ${fname.value} ${lname.value}!!! your application is successfully received `;
+    }
+  else{
+    congs.textContent=`please, fill all the fields correctly!!`
+  }
+ 
+
     
 })

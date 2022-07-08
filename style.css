@@ -53,6 +53,10 @@ select{
     visibility: hidden;
     transition: 3s ease-in-out;
     transform: translateX(-250%);
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 28px;
+    color: #ffffff;
 }
 .form{
     width:400px;

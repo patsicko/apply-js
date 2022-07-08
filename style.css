@@ -67,7 +67,7 @@ select{
     border-radius: 5PX;
     margin: auto;
     transition: 3s ease-in-out;
-    transform: translateY(-150%);
+    transform: translateY(-180%);
   
 }
 
@@ -84,6 +84,18 @@ select{
     transform: translateX(0%);
     transition: 3s ease-in-out;
 }
+
+
+.repeat{
+    background-color: rgb(209, 27, 27);
+    color: white;
+    transform: translateX(200%); 
+    transition: 7s ease-in-out;
+    
+    
+}
+
+
 
 
 

@@ -17,13 +17,16 @@ let submit=document.getElementById("submit");
 let congs=document.querySelector(".congs");
 
 
+function apply(){
 
 button.addEventListener("click",e=>{
 
-form.classList.toggle("apply");
-console.log(form);
-
-})
+  form.classList.toggle("apply");
+  console.log(form);
+  
+  })
+}
+apply();
 console.log(submit);
 
 submit.addEventListener("click",e=>{
@@ -38,8 +41,13 @@ submit.addEventListener("click",e=>{
     }
   else{
     congs.textContent=`please, fill all the fields correctly!!`
+
+    setTimeout(()=>{
+    congs.classList.add("repeat");
+    },5500)
+    
   }
- 
+  
 
     
 })

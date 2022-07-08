@@ -87,3 +87,88 @@ select{
 
 
 
+
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) { 
+   .container{
+    width: 320px;
+   }
+   .form{
+    width: 280px;
+   }
+   .congs{
+    width: 280px;
+   }
+   input{
+    width: 220px;
+   }
+ }
+
+/* // Medium devices (tablets, 480px and up) */
+@media (min-width: 480px) { 
+    .container{
+        width: 480px;
+       }
+       .form{
+        width: 400px;
+       }
+       .congs{
+        width: 400px;
+       }
+       input{
+        width: 320px;
+       }
+}
+/* 
+// Large devices (desktops, 720px and up) */
+@media (min-width: 720px) {
+    .container{
+        width: 7200px;
+       }
+       .form{
+        width: 680px;
+       }
+       .congs{
+        width: 680px;
+       }
+       input{
+        width: 580px;
+       }
+ }
+
+/* // X-Large devices (large desktops, 1080px and up) */
+@media (min-width: 1080px) {
+    .container{
+        width: 1080px;
+       }
+       .form{
+        width: 1000px;
+       }
+       .congs{
+        width: 1000px;
+       }
+       input{
+        width: 880px;
+       }
+  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .container{
+        width: 1200px;
+       }
+       .form{
+        width: 1150px;
+       }
+       .congs{
+        width: 1000px;
+       }
+       input{
+        width: 920px;
+       }
+ }
+
+
+
+
+

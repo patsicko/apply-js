@@ -44,6 +44,7 @@ submit.addEventListener("click",e=>{
 
     setTimeout(()=>{
     congs.classList.add("repeat");
+   
     congs.textContent=`Please, fill all the fields correctly!!`+" "+" "+`Refresh and click on Apply button to obtain the form again.`
     },5500)
    
